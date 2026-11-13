@@ -1,0 +1,53 @@
+name: Head unit compatibility report
+description: Report how equX works (or doesn't) on your car's head unit
+labels: [compatibility]
+body:
+  - type: input
+    id: car
+    attributes:
+      label: Car
+      description: Make, model, year
+      placeholder: Make Model Year
+    validations:
+      required: true
+  - type: input
+    id: hu
+    attributes:
+      label: Head unit / platform
+      description: OEM or aftermarket, platform if known (ECARX, Android Automotive, FYT/SYU, ...), Android version.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: equX version
+    validations:
+      required: true
+  - type: dropdown
+    id: dsp
+    attributes:
+      label: Do EQ / compressor / limiter affect the sound?
+      options: ["Yes", "No", "Partially"]
+    validations:
+      required: true
+  - type: dropdown
+    id: speed
+    attributes:
+      label: Which speed sources work? (Car tab, green indicator)
+      multiple: true
+      options: [ECARX, VHAL, GPS, None]
+  - type: dropdown
+    id: volume
+    attributes:
+      label: Which GALA volume methods work?
+      multiple: true
+      options: [Android API, Android Car API, None, Not tested]
+  - type: dropdown
+    id: boot
+    attributes:
+      label: Does equX start automatically after ignition / boot?
+      options: ["Yes", "No", Not tested]
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes

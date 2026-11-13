@@ -1,0 +1,274 @@
+<resources>
+    <string name="app_name">equX</string>
+
+    <string name="settings_title">設定</string>
+    <string name="settings_theme">テーマ</string>
+    <string name="settings_theme_subtitle">ライト、ダーク、またはシステム</string>
+    <string name="settings_color">テーマカラー</string>
+    <string name="settings_color_subtitle">アプリのテーマカラー</string>
+    <string name="settings_language">言語</string>
+    <string name="settings_language_subtitle">表示言語</string>
+    <string name="settings_scale">スケール</string>
+    <string name="settings_scale_subtitle">アプリのインターフェースサイズ</string>
+    <string name="scale_dialog_title">スケール</string>
+    <string name="scale_value_label">スケール：%1$.0f%%</string>
+    <string name="scale_auto">自動</string>
+    <string name="settings_transition">プリセットの滑らかな切り替え</string>
+    <string name="settings_transition_subtitle">プリセット間の滑らかな遷移</string>
+    <string name="transition_dialog_title">プリセットの滑らかな切り替え</string>
+    <string name="transition_enable">滑らかな遷移を有効にする</string>
+    <string name="transition_duration_label">時間：%1$.1f 秒</string>
+    <string name="gala_min_speed">開始速度</string>
+    <string name="gala_max_speed">上限速度</string>
+    <string name="gala_max_boost">最大ブースト</string>
+    <string name="gala_boost_value">%1$d ステップ</string>
+    <string name="gala_speed_value">%1$d km/h</string>
+    <string name="car_title">速度設定</string>
+    <string name="car_speed">速度</string>
+    <string name="car_volume">音量</string>
+    <string name="car_eq">イコライザー</string>
+    <string name="car_volume_method">音量方式</string>
+    <string name="car_volume_method_2">Android API</string>
+    <string name="car_volume_method_3">Android Car API</string>
+    <string name="car_volume_method_auto">自動</string>
+    <string name="car_speed_source">速度ソース</string>
+    <string name="car_speed_source_ecarx">Geely OneOS (ECARX)</string>
+    <string name="car_speed_source_vhal">Android Automotive (VHAL)</string>
+    <string name="car_speed_source_gps">GPS</string>
+    <string name="car_speed_source_max">最大 %1$d km/h</string>
+    <string name="car_gps_background_title">バックグラウンドでの位置情報</string>
+    <string name="car_gps_background_message">自動起動後（アプリを開かなくても）GPS 速度を使うには、次の画面で「常に許可」を選択してください。</string>
+    <string name="car_hu_speed_volume_title">車両の車速連動音量がオンです</string>
+    <string name="car_hu_speed_volume_message">車両の車速連動音量調整がオンになっています。GALA と併用すると音量が二重に上がります。車両のサウンド設定でオフにすることをおすすめします。</string>
+    <string name="car_real_speed_unknown">—</string>
+    <string name="car_speed_stats">速度統計</string>
+    <string name="car_speed_stats_value">現在: %1$d  最大: %2$d</string>
+    <string name="car_mock_speed">速度シミュレーション</string>
+    <string name="car_mock_speed_value">%1$d km/h</string>
+    <string name="car_gain_value">%1$+.1f dB</string>
+    <string name="car_info_desc">カーオーディオのヘルプ</string>
+    <string name="car_info_title">速度設定</string>
+    <string name="car_info_intro">速度補正はロードノイズの中で音を聞き取りやすく保ちます。音量とイコライザーの2つの独立した部分があります。</string>
+    <string name="car_info_volume_title">音量 (GALA)</string>
+    <string name="car_info_volume_text">速度が開始速度から上限速度まで上がるにつれて全体の音量を最大ブーストまで高めます。システム音量がすでに高い場合は、歪みを防ぐためにブーストが自動的に制限されます。</string>
+    <string name="car_info_eq_title">速度イコライザー</string>
+    <string name="car_info_eq_text">有効な各周波数について、ゲインは開始速度の0 dBから上限速度の設定値まで徐々に増加します。0 dBは「プリセットに対して追加の変更を行わない」ことを意味し、値はプリセット自身のEQに加算されます。例えば低音帯域の+3 dBは、高速時のみその帯域に3 dBを加えます。</string>
+    <string name="settings_content_desc">設定</string>
+
+    <string name="done">完了</string>
+    <string name="back">戻る</string>
+    <string name="toggle_collapse">設定 ▼</string>
+    <string name="toggle_expand">折りたたむ ▲</string>
+
+    <string name="theme_title">テーマ</string>
+    <string name="theme_night">ダーク</string>
+    <string name="theme_day">ライト</string>
+    <string name="theme_auto">システム</string>
+
+    <string name="language_title">言語</string>
+
+    <string name="color_title">テーマカラー</string>
+    <string name="color_description">アプリのテーマカラーを選択します。</string>
+
+    <string name="device">オーディオデバイス</string>
+    <string name="built_in_speaker">内蔵スピーカー</string>
+
+    <string name="accent_blue">青</string>
+    <string name="accent_pink">ピンク</string>
+    <string name="accent_orange">オレンジ</string>
+    <string name="accent_emerald">エメラルド</string>
+    <string name="accent_violet">バイオレット</string>
+    <string name="accent_teal">ティール</string>
+    <!-- Common (additional) -->
+    <string name="enabled">有効</string>
+    <string name="disabled">無効</string>
+    <string name="save">保存</string>
+    <string name="cancel">キャンセル</string>
+    <string name="got_it">了解</string>
+    <string name="reset">リセット</string>
+    <string name="create">作成</string>
+    <string name="export">エクスポート</string>
+    <string name="import_text">インポート</string>
+    <string name="delete">削除</string>
+    <string name="ok">OK</string>
+    <string name="reassign">再割り当て</string>
+    <string name="parameter">パラメータ</string>
+    <string name="reset_desc">プリセット値にリセット</string>
+    <string name="overwrite">上書き</string>
+    <string name="overwrite_complex_title">コンプレックスを上書きしますか？</string>
+    <string name="warning">警告</string>
+
+    <!-- Equalizer -->
+    <string name="equalizer_title">イコライザー</string>
+    <string name="eq_band_reset_desc">バンドをプリセット値にリセット</string>
+    <string name="eq_frequency_dialog_title">バンド #%1$d の周波数</string>
+    <string name="eq_frequency_dialog_hint">値を入力してください（例：16k または 16000）：</string>
+    <string name="eq_frequency_dialog_range">範囲：%1$s ～ %2$s</string>
+    <string name="eq_gain_dialog_title">バンド #%1$d のゲイン</string>
+    <string name="eq_gain_dialog_hint">値を入力してください：</string>
+    <string name="eq_gain_dialog_range">範囲：-12.0 ～ +12.0</string>
+
+    <!-- Compressor -->
+    <string name="compressor_title">コンプレッサー</string>
+    <string name="compressor_simple_info_title">シンプルコンプレッサー</string>
+    <string name="compressor_simple_info_desc">コンプレッサーのシンプルモードについて</string>
+    <string name="overwrite_complex_band_msg">このバンドをコンプレックスモードで編集しました。強度を変更するとコンプレックス値が上書きされます。</string>
+    <string name="compressor_info_intro">バンドは周波数範囲ごとにグループ化され、異なる処理が行われます。</string>
+    <string name="compressor_info_band_ranges">バンド範囲</string>
+    <string name="compressor_info_curves">グループごとに異なるカーブ</string>
+    <string name="compressor_info_character">処理特性</string>
+
+    <!-- Limiter -->
+    <string name="limiter_title">リミッター</string>
+    <string name="limiter_simple_info_title">シンプルリミッター</string>
+    <string name="limiter_simple_info_desc">リミッターのシンプルモードについて</string>
+    <string name="intensity">強度</string>
+    <string name="reset_intensity_desc">強度をリセット</string>
+    <string name="overwrite_complex_limiter_switch_msg">コンプレックスモードでパラメータを編集しました。シンプルモードでは強度の式による値に置き換えられます。</string>
+    <string name="overwrite_complex_compressor_switch_msg">一部のバンドはコンプレックスモードで編集されています。シンプルモードではそれらの値が強度の式による値に置き換えられます。</string>
+    <string name="limiter_info_intro" formatted="false">強度スライダーは1つのコントロールでリミッター全体を調整します。\n0% — 柔らかく、ほぼ透明な保護。\n100% — アグレッシブなブリックウォールリミット。</string>
+    <string name="limiter_info_values">強度別の値</string>
+
+    <!-- Preset -->
+    <string name="imported_preset">インポート済みプリセット</string>
+    <string name="auto_switch">自動切り替え</string>
+    <string name="manual_mode">手動</string>
+    <string name="auto_switch_subtitle">デバイスとアプリでプロファイルを切り替え</string>
+    <string name="manual_mode_subtitle">手動プロファイル選択</string>
+    <string name="auto_switch_info_desc">自動切り替えについて</string>
+    <string name="preset_modified">プリセット「%1$s」が変更されました</string>
+    <string name="choose_profile">プロファイルを選択：</string>
+    <string name="devices_count">デバイス：%1$d</string>
+    <string name="apps_count">アプリ：%1$d</string>
+    <string name="sources_count">音源：%1$d</string>
+    <string name="auto_switch_paused_draft">保存またはリセットするまで自動切替は一時停止します</string>
+    <string name="draft_pending_msg">プリセット「%1$s」に未保存の変更があります。続行するには保存またはリセットしてください。</string>
+    <string name="rename_preset_desc">プリセット名を変更</string>
+    <string name="delete_preset_desc">プリセットを削除</string>
+    <string name="output_devices">出力デバイス</string>
+    <string name="select_output_devices_desc">出力デバイスを選択</string>
+    <string name="apps">アプリ</string>
+    <string name="select_apps_desc">アプリを選択</string>
+    <string name="output_devices_binding">出力デバイスの関連付け</string>
+    <string name="auto_switch_info_title">自動切り替え</string>
+    <string name="auto_switch_info_text">自動切り替えは、現在のデバイスとアクティブなアプリに合ったプロファイルを選びます。\n\n優先順位：\n1. このデバイスとこのアプリの両方に紐付いたプロファイル。\n2. このデバイスにのみ紐付いたプロファイル（アプリなし）。\n3. 一致するものがない場合はデフォルトのプロファイル。\n\n紐付けは各プロファイルの「デバイス」と「アプリ」で設定します。\n手動モードではプロファイルは自動で切り替わりません。</string>
+    <string name="unsaved_changes">未保存の変更</string>
+    <string name="export_unsaved_msg">プロファイルに未保存の変更があります。何をエクスポートしますか？</string>
+    <string name="draft">下書き</string>
+    <string name="saved">保存済み</string>
+    <string name="preset_name_taken">プリセット名は使用中です</string>
+    <string name="preset_name_taken_msg">この名前のプリセットは既に存在します。別の名前を入力してください：</string>
+    <string name="name_rules_hint">使用不可：%1$s と末尾のドット</string>
+    <string name="name_taken_error">この名前は既に使われています</string>
+    <string name="preset_name_invalid">無効なプリセット名</string>
+    <string name="preset_name_invalid_msg">ファイル内のプリセット名に使用できない文字が含まれています。修正した名前を提案します：</string>
+    <string name="import_action">インポート</string>
+    <string name="conflict_global_session_title">グローバルセッションは使用中です</string>
+    <string name="conflict_global_session_msg">デバイス「%1$s」は既にプリセット「%2$s」でグローバル（アプリバインドなし）として割り当てられています。\n\n1つのデバイスのグローバルセッションを2つの異なるプリセットにバインドすることはできません。</string>
+    <string name="conflict_cannot_global_title">グローバルにできません</string>
+    <string name="conflict_cannot_global_msg">デバイス「%1$s」は選択されたアプリと共にプリセット「%2$s」で既に使用されています。\n\nこのプリセットはこのデバイスでグローバル（アプリなし）にできません。現在のプリセットに未使用のアプリを少なくとも1つ指定してください。</string>
+    <string name="conflict_global_exists_title">グローバルプリセットが存在します</string>
+    <string name="conflict_global_exists_msg">デバイス「%1$s」は既にプリセット「%2$s」でグローバル（アプリなし）としてバインドされています。\n\nまずそのプリセットでアプリを指定するか、デバイスを再割り当てしてください。</string>
+    <string name="conflict_pair_title">バインディング競合</string>
+    <string name="conflict_pair_msg">このデバイスの「%1$s」バインディングは既にプリセット「%2$s」に存在します。設定を移動しますか？</string>
+    <string name="apps_binding">アプリの関連付け</string>
+    <string name="no_media_apps">メディアアプリが見つかりません</string>
+    <string name="sound_sources">音源</string>
+    <string name="select_sound_sources_desc">音源を選択</string>
+    <string name="sound_sources_binding">音源の紐付け</string>
+    <string name="no_sound_sources">音源が見つかりません</string>
+    <string name="new_profile">新しいプロファイル</string>
+    <string name="preset_name_label">プリセット名</string>
+    <string name="rename_profile">プロファイル名を変更</string>
+    <string name="new_name">新しい名前</string>
+    <string name="delete_profile">プロファイルを削除</string>
+    <string name="delete_profile_msg">プリセット「%1$s」を削除してもよろしいですか？</string>
+
+    <!-- FX -->
+    <string name="fx_title">FX</string>
+    <string name="fx_info_desc">FX について</string>
+    <string name="fx_info_text">「空間」— 2つのスライダー：
+• 「広がり」— システムのバーチャライザー（ステレオ拡張。非搭載の端末もあります）。0% でオフ。
+• 「高域」— イコライザーで高域を持ち上げます：1 kHz 最大 +3 dB、2〜4 kHz 最大 +5 dB、8〜16 kHz 最大 +8 dB。
+
+「小音量補正」— 2つのスライダー：
+• 「強さ」— ISO 226:2003 等ラウドネス曲線による補正の割合。小音量時に、聴覚が 1 kHz に対して失う分だけ低音と高音を持ち上げます。100% は曲線差そのもので、最大 +12 dB。
+• 「しきい値」— これ以上では補正しない音量ステップ。車内の実際の音圧は分からないため、レベルは音量ステップから推定します（しきい値で 80 phon）。</string>
+    <string name="loudness_title">小音量補正</string>
+    <string name="loudness_strength">強さ</string>
+    <string name="loudness_threshold">しきい値</string>
+    <string name="loudness_status_volume">音量 %1$d/%2$d・しきい値 %3$d</string>
+    <string name="loudness_status_gains">低音 %1$+.1f dB・高音 %2$+.1f dB・余裕 %3$.1f dB</string>
+    <string name="loudness_status_unknown">システム音量を待機中…</string>
+    <string name="spatial3d_title">空間</string>
+    <string name="spatial_width">広がり</string>
+    <string name="spatial_width_status_unknown">広がり: 未確認（音楽を再生してください）</string>
+    <string name="spatial_width_status_works">広がり: 動作中</string>
+    <string name="spatial_width_status_blocked">広がり: この端末ではシステムによりブロックされています</string>
+    <string name="spatial_air">高域</string>
+
+    <!-- Autostart -->
+    <string name="autostart_title">自動起動</string>
+    <string name="autostart_message">再起動後に equX を自動起動してサウンドプロファイルを適用するには、システム設定でこのアプリの自動起動を許可してください。</string>
+    <string name="autostart_open_settings">設定を開く</string>
+    <string name="later">後で</string>
+
+    <!-- Notification access -->
+    <string name="notification_access_title">通知へのアクセス</string>
+    <string name="notification_access_message">サードパーティ製プレーヤー（KMPlayer、Yandex Music など）を確実に検出してプロファイルを自動切り替えするために、equX には通知へのアクセスが必要です。</string>
+    <string name="notification_access_grant">許可</string>
+
+    <!-- Default preset -->
+    <string name="default_preset_name">デフォルト</string>
+
+    <!-- Info dialogs -->
+    <string name="compressor_info_character_text">• 低域 — 遅いアタック → 低音のパンチを維持。\n• 中域 — バランスの取れた制御。\n• 高域 — 速いアタック → 歯擦音や耳障りな音を処理。</string>
+    <string name="limiter_info_extra_text">• Out Gain — リミッター後の全体音量（Simple と Complex の両方で機能）。\n• 信号がしきい値を超えたときのみコンプレッションが動作します。</string>
+    <!-- Devices -->
+    <string name="device_bluetooth">Bluetooth デバイス</string>
+    <string name="device_aux">AUX / 有線ヘッドホン</string>
+    <string name="device_usb_dac">USB DAC / オーディオカード</string>
+    <string name="device_usb_dac_short">USB DAC</string>
+
+    <!-- Player fallback -->
+
+    <!-- Notification -->
+    <string name="notification_channel_name">equX バックグラウンドサウンド</string>
+    <string name="notification_channel_description">車内でイコライザーを継続的に動作させます</string>
+    <string name="notification_title">equX はバックグラウンドで実行中</string>
+
+    <!-- Quick Settings tile -->
+    <string name="tile_on">equX: オン</string>
+    <string name="tile_off">equX: オフ</string>
+
+    <!-- File manager -->
+    <string name="file_manager_import_title">プリセットをインポート</string>
+    <string name="file_manager_export_title">プリセットをエクスポート</string>
+    <string name="file_sort_by">並べ替え</string>
+    <string name="file_sort_name_asc">名前 ↑</string>
+    <string name="file_sort_name_desc">名前 ↓</string>
+    <string name="file_sort_modified_asc">更新日時 ↑</string>
+    <string name="file_sort_modified_desc">更新日時 ↓</string>
+    <string name="file_manager_up">上へ</string>
+    <string name="file_manager_empty">フォルダは空です</string>
+    <string name="file_manager_filename">ファイル名</string>
+    <string name="file_manager_filename_hint">preset.json</string>
+    <string name="file_manager_overwrite_title">ファイルが既に存在します</string>
+    <string name="file_manager_overwrite_message">%1$s を置き換えますか？</string>
+    <string name="import_error_title">インポートに失敗しました</string>
+    <string name="import_error_message">このファイルは有効な equX プリセットではありません。</string>
+    <string name="export_error_title">エクスポートに失敗しました</string>
+    <string name="export_error_message">「%1$s」を保存できませんでした。フォルダーへのアクセス権と空き容量を確認するか、別のフォルダーを選択してください。</string>
+
+    <!-- Отчёт об ошибке / логи и скрытое меню отладки -->
+    <string name="debug_title">デバッグ</string>
+    <string name="debug_force_car">Carモードを強制有効化</string>
+    <string name="diagnostics_title">エラーレポート</string>
+    <string name="diagnostics_save_download">Downloadに保存</string>
+    <string name="diagnostics_share">共有</string>
+    <string name="diagnostics_saved">Downloadに保存しました</string>
+    <string name="diagnostics_failed">レポートを作成できません</string>
+    <string name="settings_report">エラーレポート</string>
+    <string name="diagnostics_note">アプリのログは常に記録されます（最大 6 MB・7 日間）。出力後にクリアされます。</string>
+    <string name="settings_report_subtitle">アプリログを出力</string>
+</resources>

@@ -1,0 +1,274 @@
+<resources>
+    <string name="app_name">equX</string>
+
+    <string name="settings_title">Настройки</string>
+    <string name="settings_theme">Тема</string>
+    <string name="settings_theme_subtitle">Светлая, тёмная или как в системе</string>
+    <string name="settings_color">Цвет темы</string>
+    <string name="settings_color_subtitle">Цвет оформления приложения</string>
+    <string name="settings_language">Язык</string>
+    <string name="settings_language_subtitle">Язык интерфейса</string>
+    <string name="settings_scale">Масштаб</string>
+    <string name="settings_scale_subtitle">Размер интерфейса приложения</string>
+    <string name="scale_dialog_title">Масштаб</string>
+    <string name="scale_value_label">Масштаб: %1$.0f%%</string>
+    <string name="scale_auto">Авто</string>
+    <string name="settings_transition">Плавное переключение пресетов</string>
+    <string name="settings_transition_subtitle">Плавный переход между пресетами</string>
+    <string name="transition_dialog_title">Плавное переключение пресетов</string>
+    <string name="transition_enable">Включить плавный переход</string>
+    <string name="transition_duration_label">Длительность: %1$.1f с</string>
+    <string name="gala_min_speed">Начальная скорость</string>
+    <string name="gala_max_speed">Предельная скорость</string>
+    <string name="gala_max_boost">Макс. прибавка</string>
+    <string name="gala_boost_value">%1$d шаг.</string>
+    <string name="gala_speed_value">%1$d км/ч</string>
+    <string name="car_title">Настройки скорости</string>
+    <string name="car_speed">Скорость</string>
+    <string name="car_volume">Громкость</string>
+    <string name="car_eq">Эквалайзер</string>
+    <string name="car_volume_method">Метод регулировки</string>
+    <string name="car_volume_method_2">Android API</string>
+    <string name="car_volume_method_3">Android Car API</string>
+    <string name="car_volume_method_auto">Авто</string>
+    <string name="car_speed_source">Источник скорости</string>
+    <string name="car_speed_source_ecarx">Geely OneOS (ECARX)</string>
+    <string name="car_speed_source_vhal">Android Automotive (VHAL)</string>
+    <string name="car_speed_source_gps">GPS</string>
+    <string name="car_speed_source_max">макс %1$d км/ч</string>
+    <string name="car_gps_background_title">Доступ к геолокации в фоне</string>
+    <string name="car_gps_background_message">Чтобы скорость по GPS работала после автозапуска (без открытия приложения), выберите «Разрешить в любом режиме» на следующем экране.</string>
+    <string name="car_hu_speed_volume_title">Включена штатная регулировка по скорости</string>
+    <string name="car_hu_speed_volume_message">В автомобиле включена штатная регулировка громкости по скорости. Вместе с GALA громкость будет расти дважды. Лучше отключить её в настройках звука автомобиля.</string>
+    <string name="car_real_speed_unknown">—</string>
+    <string name="car_speed_stats">Статистика скорости</string>
+    <string name="car_speed_stats_value">Текущая: %1$d  Макс: %2$d</string>
+    <string name="car_mock_speed">Имитация скорости</string>
+    <string name="car_mock_speed_value">%1$d км/ч</string>
+    <string name="car_gain_value">%1$+.1f dB</string>
+    <string name="car_info_desc">Справка по автозвуку</string>
+    <string name="car_info_title">Настройки скорости</string>
+    <string name="car_info_intro">Скоростная компенсация помогает сохранять слышимость на фоне дорожного шума. Она состоит из двух независимых частей: громкость и эквалайзер.</string>
+    <string name="car_info_volume_title">Громкость (GALA)</string>
+    <string name="car_info_volume_text">Повышает общую громкость по мере роста скорости от Начальной до Предельной, вплоть до Макс. прибавки. Если системная громкость уже высокая, прибавка автоматически ограничивается, чтобы не было искажений.</string>
+    <string name="car_info_eq_title">Скоростной эквалайзер</string>
+    <string name="car_info_eq_text">Для каждой включённой частоты усиление плавно растёт от 0 dB на Начальной скорости до заданного значения на Предельной. 0 dB означает «без дополнительного изменения поверх пресета»; значение добавляется к собственному эквалайзеру пресета. Например, +3 dB на басовой полосе добавляют 3 dB к этой полосе только на высокой скорости.</string>
+    <string name="settings_content_desc">Настройки</string>
+
+    <string name="done">Готово</string>
+    <string name="back">Назад</string>
+    <string name="toggle_collapse">Настроить ▼</string>
+    <string name="toggle_expand">Свернуть ▲</string>
+
+    <string name="theme_title">Тема оформления</string>
+    <string name="theme_night">Ночь</string>
+    <string name="theme_day">День</string>
+    <string name="theme_auto">Авто (как в системе)</string>
+
+    <string name="language_title">Язык</string>
+
+    <string name="color_title">Цвет темы</string>
+    <string name="color_description">Выберите цвет оформления приложения.</string>
+
+    <string name="device">Аудиоустройство</string>
+    <string name="built_in_speaker">Встроенный динамик</string>
+
+    <string name="accent_blue">Синий</string>
+    <string name="accent_pink">Розовый</string>
+    <string name="accent_orange">Оранжевый</string>
+    <string name="accent_emerald">Изумрудный</string>
+    <string name="accent_violet">Фиолетовый</string>
+    <string name="accent_teal">Бирюзовый</string>
+    <!-- Common (additional) -->
+    <string name="enabled">Включен</string>
+    <string name="disabled">Выключен</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="got_it">Понятно</string>
+    <string name="reset">Сбросить</string>
+    <string name="create">Создать</string>
+    <string name="export">Экспорт</string>
+    <string name="import_text">Импорт</string>
+    <string name="delete">Удалить</string>
+    <string name="ok">ОК</string>
+    <string name="reassign">Переназначить</string>
+    <string name="parameter">Параметр</string>
+    <string name="reset_desc">Сброс к значению в пресете</string>
+    <string name="overwrite">Перезаписать</string>
+    <string name="overwrite_complex_title">Перезаписать Complex?</string>
+    <string name="warning">Внимание</string>
+
+    <!-- Equalizer -->
+    <string name="equalizer_title">Эквалайзер</string>
+    <string name="eq_band_reset_desc">Сброс полосы к значению в пресете</string>
+    <string name="eq_frequency_dialog_title">Частота полосы #%1$d</string>
+    <string name="eq_frequency_dialog_hint">Введите значение (например: 16k или 16000):</string>
+    <string name="eq_frequency_dialog_range">Допустимо: от %1$s до %2$s</string>
+    <string name="eq_gain_dialog_title">Усиление полосы #%1$d</string>
+    <string name="eq_gain_dialog_hint">Введите значение:</string>
+    <string name="eq_gain_dialog_range">Диапазон: от -12.0 до +12.0</string>
+
+    <!-- Compressor -->
+    <string name="compressor_title">Компрессор</string>
+    <string name="compressor_simple_info_title">Simple-компрессор</string>
+    <string name="compressor_simple_info_desc">О Simple-режиме компрессора</string>
+    <string name="overwrite_complex_band_msg">Вы редактировали эту полосу в Complex-режиме. Изменение интенсивности перезапишет её Complex-значения.</string>
+    <string name="compressor_info_intro">Полосы сгруппированы по частотным диапазонам и обрабатываются по-разному.</string>
+    <string name="compressor_info_band_ranges">Диапазон полос</string>
+    <string name="compressor_info_curves">Разные кривые под каждую группу</string>
+    <string name="compressor_info_character">Характер обработки</string>
+
+    <!-- Limiter -->
+    <string name="limiter_title">Лимитер</string>
+    <string name="limiter_simple_info_title">Simple-лимитер</string>
+    <string name="limiter_simple_info_desc">О Simple-режиме лимитера</string>
+    <string name="intensity">Интенсивность</string>
+    <string name="reset_intensity_desc">Сброс интенсивности</string>
+    <string name="overwrite_complex_limiter_switch_msg">Вы редактировали параметры в Complex-режиме. В Simple они будут заменены значениями по формуле интенсивности.</string>
+    <string name="overwrite_complex_compressor_switch_msg">Некоторые полосы отредактированы в Complex-режиме. В Simple их значения будут заменены значениями по формуле интенсивности.</string>
+    <string name="limiter_info_intro" formatted="false">Ползунок «Интенсивность» одной ручкой настраивает весь лимитер.\n0% — мягкая, почти прозрачная защита.\n100% — агрессивный brickwall-лимит.</string>
+    <string name="limiter_info_values">Значения по интенсивности</string>
+
+    <!-- Preset -->
+    <string name="imported_preset">Импортированный пресет</string>
+    <string name="auto_switch">Автопереключение</string>
+    <string name="manual_mode">Ручной выбор</string>
+    <string name="auto_switch_subtitle">Смена профиля по устройствам и приложениям</string>
+    <string name="manual_mode_subtitle">Ручной выбор профиля</string>
+    <string name="auto_switch_info_desc">Об автопереключении</string>
+    <string name="preset_modified">Пресет «%1$s» изменен</string>
+    <string name="choose_profile">Выберите профиль:</string>
+    <string name="devices_count">Устройств: %1$d</string>
+    <string name="apps_count">Приложений: %1$d</string>
+    <string name="sources_count">Источников: %1$d</string>
+    <string name="auto_switch_paused_draft">Автопереключение приостановлено до сохранения или сброса</string>
+    <string name="draft_pending_msg">В пресете «%1$s» есть несохранённые изменения. Сохраните или сбросьте их, чтобы продолжить.</string>
+    <string name="rename_preset_desc">Переименовать пресет</string>
+    <string name="delete_preset_desc">Удалить пресет</string>
+    <string name="output_devices">Устройства вывода</string>
+    <string name="select_output_devices_desc">Выбрать устройства вывода</string>
+    <string name="apps">Приложения</string>
+    <string name="select_apps_desc">Выбрать приложения</string>
+    <string name="output_devices_binding">Привязка устройств вывода</string>
+    <string name="auto_switch_info_title">Автопереключение</string>
+    <string name="auto_switch_info_text">Автопереключение само подбирает профиль под текущее аудиоустройство и активное приложение.\n\nПриоритет выбора:\n1. Профиль, к которому привязаны и это устройство, и это приложение.\n2. Профиль, привязанный только к этому устройству (без приложений).\n3. Профиль «По умолчанию», если совпадений нет.\n\nПривязки задаются в каждом профиле в разделах «Устройства» и «Приложения».\nВ ручном режиме профиль не меняется автоматически.</string>
+    <string name="unsaved_changes">Несохранённые изменения</string>
+    <string name="export_unsaved_msg">В профиле есть несохранённые правки. Что экспортировать?</string>
+    <string name="draft">Черновик</string>
+    <string name="saved">Сохранённый</string>
+    <string name="preset_name_taken">Имя пресета занято</string>
+    <string name="preset_name_taken_msg">Пресет с таким именем уже существует. Введите другое имя:</string>
+    <string name="name_rules_hint">Нельзя: %1$s и точку в конце</string>
+    <string name="name_taken_error">Имя уже занято</string>
+    <string name="preset_name_invalid">Недопустимое имя пресета</string>
+    <string name="preset_name_invalid_msg">Имя пресета в файле содержит недопустимые символы. Предложено исправленное имя:</string>
+    <string name="import_action">Импортировать</string>
+    <string name="conflict_global_session_title">Глобальная сессия занята</string>
+    <string name="conflict_global_session_msg">Устройство «%1$s» уже назначено как глобальное (без привязки к приложениям) в пресете «%2$s».\n\nНевозможно привязать глобальную сессию одного устройства к двум разным пресетам.</string>
+    <string name="conflict_cannot_global_title">Невозможно сделать глобальным</string>
+    <string name="conflict_cannot_global_msg">Устройство «%1$s» уже используется в пресете «%2$s» с выбранными приложениями.\n\nДанный пресет не может быть глобальным (без приложений) для этого устройства. Пожалуйста, укажите хотя бы одно еще не использованное приложение для текущего пресета.</string>
+    <string name="conflict_global_exists_title">Глобальный пресет существует</string>
+    <string name="conflict_global_exists_msg">Устройство «%1$s» уже привязано как глобальное (без приложений) в пресете «%2$s».\n\nСначала укажите приложения в том пресете или переназначьте устройство.</string>
+    <string name="conflict_pair_title">Конфликт связки</string>
+    <string name="conflict_pair_msg">Связка «%1$s» для этого устройства уже существует в пресете «%2$s». Перенести настройки?</string>
+    <string name="apps_binding">Привязка приложений</string>
+    <string name="no_media_apps">Медиа-приложения не обнаружены</string>
+    <string name="sound_sources">Источники звука</string>
+    <string name="select_sound_sources_desc">Выбрать источники звука</string>
+    <string name="sound_sources_binding">Привязка источника звука</string>
+    <string name="no_sound_sources">Источники звука не найдены</string>
+    <string name="new_profile">Новый профиль</string>
+    <string name="preset_name_label">Название пресета</string>
+    <string name="rename_profile">Переименовать профиль</string>
+    <string name="new_name">Новое название</string>
+    <string name="delete_profile">Удаление профиля</string>
+    <string name="delete_profile_msg">Вы действительно хотите удалить пресет «%1$s»?</string>
+
+    <!-- FX -->
+    <string name="fx_title">FX</string>
+    <string name="fx_info_desc">Об FX</string>
+    <string name="fx_info_text">«Пространство» — два ползунка:
+• «Ширина» — системный виртуализатор (расширение стереобазы; есть не на всех устройствах). 0% — выключен.
+• «Верха» — подъём верхнего диапазона в эквалайзере: 1 кГц до +3 дБ, 2–4 кГц до +5 дБ, 8–16 кГц до +8 дБ.
+
+«Тонкомпенсация» — два ползунка:
+• «Сила» — доля поправки по кривым равной громкости ISO 226:2003: на малой громкости басы и верха поднимаются настолько, насколько слух их теряет относительно 1 кГц. 100% — полная разница кривых, подъём не больше +12 дБ.
+• «Порог» — шаг громкости, начиная с которого поправки нет. Реальное звуковое давление в салоне неизвестно, поэтому уровень оценивается по шагу громкости (на пороге — 80 фон).</string>
+    <string name="loudness_title">Тонкомпенсация</string>
+    <string name="loudness_strength">Сила</string>
+    <string name="loudness_threshold">Порог</string>
+    <string name="loudness_status_volume">Громкость %1$d/%2$d · порог %3$d</string>
+    <string name="loudness_status_gains">Бас %1$+.1f дБ · ВЧ %2$+.1f дБ · запас %3$.1f дБ</string>
+    <string name="loudness_status_unknown">Ждём системную громкость…</string>
+    <string name="spatial3d_title">Пространство</string>
+    <string name="spatial_width">Ширина</string>
+    <string name="spatial_width_status_unknown">Ширина: ещё не проверена (включите музыку)</string>
+    <string name="spatial_width_status_works">Ширина: работает</string>
+    <string name="spatial_width_status_blocked">Ширина: заблокирована системой на этом устройстве</string>
+    <string name="spatial_air">Верха</string>
+
+    <!-- Autostart -->
+    <string name="autostart_title">Автозапуск</string>
+    <string name="autostart_message">Чтобы equX автоматически запускался и применял ваш звуковой профиль после перезагрузки, разрешите автозапуск для этого приложения в системных настройках.</string>
+    <string name="autostart_open_settings">Открыть настройки</string>
+    <string name="later">Позже</string>
+
+    <!-- Notification access -->
+    <string name="notification_access_title">Доступ к уведомлениям</string>
+    <string name="notification_access_message">Для точного распознавания сторонних приложений (например, KMPlayer, Яндекс.Музыка) и правильной работы автопереключения профилей, приложению необходим доступ к уведомлениям.</string>
+    <string name="notification_access_grant">Предоставить</string>
+
+    <!-- Default preset -->
+    <string name="default_preset_name">По умолчанию</string>
+
+    <!-- Info dialogs -->
+    <string name="compressor_info_character_text">• Низ — медленная атака → сохраняет «панч» баса.\n• Середина — сбалансированный контроль.\n• Верх — быстрая атака → ловит сибилянты и резкость.</string>
+    <string name="limiter_info_extra_text">• Out Gain — общая громкость после лимитера (работает и в Simple, и в Complex).\n• Компрессия срабатывает только когда сигнал превышает Threshold.</string>
+    <!-- Devices -->
+    <string name="device_bluetooth">Bluetooth Устройство</string>
+    <string name="device_aux">AUX / Проводные наушники</string>
+    <string name="device_usb_dac">USB ЦАП / Аудиокарта</string>
+    <string name="device_usb_dac_short">USB ЦАП</string>
+
+    <!-- Player fallback -->
+
+    <!-- Notification -->
+    <string name="notification_channel_name">equX Фоновый Звук</string>
+    <string name="notification_channel_description">Обеспечивает непрерывную работу эквалайзера в автомобиле</string>
+    <string name="notification_title">equX запущен в фоне</string>
+
+    <!-- Quick Settings tile -->
+    <string name="tile_on">equX: ВКЛ</string>
+    <string name="tile_off">equX: ОБХОД</string>
+
+    <!-- File manager -->
+    <string name="file_manager_import_title">Импорт пресета</string>
+    <string name="file_manager_export_title">Экспорт пресета</string>
+    <string name="file_sort_by">Сортировка</string>
+    <string name="file_sort_name_asc">Имя ↑</string>
+    <string name="file_sort_name_desc">Имя ↓</string>
+    <string name="file_sort_modified_asc">Дата изменения ↑</string>
+    <string name="file_sort_modified_desc">Дата изменения ↓</string>
+    <string name="file_manager_up">Вверх</string>
+    <string name="file_manager_empty">Папка пуста</string>
+    <string name="file_manager_filename">Имя файла</string>
+    <string name="file_manager_filename_hint">preset.json</string>
+    <string name="file_manager_overwrite_title">Файл уже существует</string>
+    <string name="file_manager_overwrite_message">Заменить %1$s?</string>
+    <string name="import_error_title">Импорт не удался</string>
+    <string name="import_error_message">Этот файл не является корректным пресетом equX.</string>
+    <string name="export_error_title">Ошибка экспорта</string>
+    <string name="export_error_message">Не удалось сохранить «%1$s». Проверьте доступ к папке и свободное место или выберите другую папку.</string>
+
+    <!-- Отчёт об ошибке / логи и скрытое меню отладки -->
+    <string name="debug_title">Отладка</string>
+    <string name="debug_force_car">Принудительно включить режим машины</string>
+    <string name="diagnostics_title">Отчёт об ошибке</string>
+    <string name="diagnostics_save_download">Сохранить в Download</string>
+    <string name="diagnostics_share">Поделиться</string>
+    <string name="diagnostics_saved">Отчёт сохранён в Download</string>
+    <string name="diagnostics_failed">Не удалось создать отчёт</string>
+    <string name="settings_report">Отчёт об ошибке</string>
+    <string name="diagnostics_note">Журнал приложения пишется всегда (до 6 МБ, 7 дней). После выгрузки он очищается.</string>
+    <string name="settings_report_subtitle">Выгрузка журнала приложения</string>
+</resources>

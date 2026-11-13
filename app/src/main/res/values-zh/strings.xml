@@ -1,0 +1,274 @@
+<resources>
+    <string name="app_name">equX</string>
+
+    <string name="settings_title">设置</string>
+    <string name="settings_theme">主题</string>
+    <string name="settings_theme_subtitle">浅色、深色或跟随系统</string>
+    <string name="settings_color">主题颜色</string>
+    <string name="settings_color_subtitle">应用主题颜色</string>
+    <string name="settings_language">语言</string>
+    <string name="settings_language_subtitle">界面语言</string>
+    <string name="settings_scale">缩放</string>
+    <string name="settings_scale_subtitle">应用界面大小</string>
+    <string name="scale_dialog_title">缩放</string>
+    <string name="scale_value_label">缩放：%1$.0f%%</string>
+    <string name="scale_auto">自动</string>
+    <string name="settings_transition">预设平滑切换</string>
+    <string name="settings_transition_subtitle">预设之间的平滑过渡</string>
+    <string name="transition_dialog_title">预设平滑切换</string>
+    <string name="transition_enable">启用平滑过渡</string>
+    <string name="transition_duration_label">持续时间：%1$.1f 秒</string>
+    <string name="gala_min_speed">起始速度</string>
+    <string name="gala_max_speed">极限速度</string>
+    <string name="gala_max_boost">最大增益</string>
+    <string name="gala_boost_value">%1$d 步</string>
+    <string name="gala_speed_value">%1$d 公里/小时</string>
+    <string name="car_title">速度设置</string>
+    <string name="car_speed">速度</string>
+    <string name="car_volume">音量</string>
+    <string name="car_eq">均衡器</string>
+    <string name="car_volume_method">音量方式</string>
+    <string name="car_volume_method_2">Android API</string>
+    <string name="car_volume_method_3">Android Car API</string>
+    <string name="car_volume_method_auto">自动</string>
+    <string name="car_speed_source">速度来源</string>
+    <string name="car_speed_source_ecarx">Geely OneOS (ECARX)</string>
+    <string name="car_speed_source_vhal">Android Automotive (VHAL)</string>
+    <string name="car_speed_source_gps">GPS</string>
+    <string name="car_speed_source_max">最高 %1$d km/h</string>
+    <string name="car_gps_background_title">后台位置访问</string>
+    <string name="car_gps_background_message">为了在自动启动后（无需打开应用）也能使用 GPS 速度，请在下一个界面选择“始终允许”。</string>
+    <string name="car_hu_speed_volume_title">车辆自带的随速音量已开启</string>
+    <string name="car_hu_speed_volume_message">车辆自带的随速音量调节已开启。与 GALA 同时使用时音量会叠加提升两次。建议在车辆的声音设置中将其关闭。</string>
+    <string name="car_real_speed_unknown">—</string>
+    <string name="car_speed_stats">速度统计</string>
+    <string name="car_speed_stats_value">当前: %1$d  最大: %2$d</string>
+    <string name="car_mock_speed">速度模拟</string>
+    <string name="car_mock_speed_value">%1$d 公里/小时</string>
+    <string name="car_gain_value">%1$+.1f dB</string>
+    <string name="car_info_desc">车载音频帮助</string>
+    <string name="car_info_title">速度设置</string>
+    <string name="car_info_intro">速度补偿有助于在道路噪音中保持声音可听。它包含两个独立部分：音量和均衡器。</string>
+    <string name="car_info_volume_title">音量 (GALA)</string>
+    <string name="car_info_volume_text">随着速度从起始速度增长到极限速度，总体响度逐渐提高，最高达到最大增益。如果系统音量已经很高，增益会自动受限以避免失真。</string>
+    <string name="car_info_eq_title">速度均衡器</string>
+    <string name="car_info_eq_text">对于每个已启用的频率，增益会从起始速度时的 0 dB 逐渐增加到极限速度时的设定值。0 dB 表示“不额外改变预设”；该值会叠加到预设自身的均衡器上。例如，低频段 +3 dB 只会让低音在较高速度时再增加 3 dB。</string>
+    <string name="settings_content_desc">设置</string>
+
+    <string name="done">完成</string>
+    <string name="back">返回</string>
+    <string name="toggle_collapse">配置 ▼</string>
+    <string name="toggle_expand">收起 ▲</string>
+
+    <string name="theme_title">主题</string>
+    <string name="theme_night">深色</string>
+    <string name="theme_day">浅色</string>
+    <string name="theme_auto">跟随系统</string>
+
+    <string name="language_title">语言</string>
+
+    <string name="color_title">主题颜色</string>
+    <string name="color_description">选择应用的主题颜色。</string>
+
+    <string name="device">音频设备</string>
+    <string name="built_in_speaker">内置扬声器</string>
+
+    <string name="accent_blue">蓝色</string>
+    <string name="accent_pink">粉色</string>
+    <string name="accent_orange">橙色</string>
+    <string name="accent_emerald">翡翠绿</string>
+    <string name="accent_violet">紫色</string>
+    <string name="accent_teal">青色</string>
+    <!-- Common (additional) -->
+    <string name="enabled">已启用</string>
+    <string name="disabled">已禁用</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="got_it">明白了</string>
+    <string name="reset">重置</string>
+    <string name="create">创建</string>
+    <string name="export">导出</string>
+    <string name="import_text">导入</string>
+    <string name="delete">删除</string>
+    <string name="ok">确定</string>
+    <string name="reassign">重新分配</string>
+    <string name="parameter">参数</string>
+    <string name="reset_desc">重置为预设值</string>
+    <string name="overwrite">覆盖</string>
+    <string name="overwrite_complex_title">覆盖复杂模式？</string>
+    <string name="warning">警告</string>
+
+    <!-- Equalizer -->
+    <string name="equalizer_title">均衡器</string>
+    <string name="eq_band_reset_desc">将频段重置为预设值</string>
+    <string name="eq_frequency_dialog_title">频段 #%1$d 频率</string>
+    <string name="eq_frequency_dialog_hint">输入数值（例如 16k 或 16000）：</string>
+    <string name="eq_frequency_dialog_range">允许范围：%1$s 至 %2$s</string>
+    <string name="eq_gain_dialog_title">频段 #%1$d 增益</string>
+    <string name="eq_gain_dialog_hint">输入数值：</string>
+    <string name="eq_gain_dialog_range">范围：-12.0 至 +12.0</string>
+
+    <!-- Compressor -->
+    <string name="compressor_title">压缩器</string>
+    <string name="compressor_simple_info_title">简易压缩器</string>
+    <string name="compressor_simple_info_desc">关于压缩器简单模式</string>
+    <string name="overwrite_complex_band_msg">您已在复杂模式下编辑此频段。更改强度将覆盖其复杂模式值。</string>
+    <string name="compressor_info_intro">频段按频率范围分组，并以不同方式处理。</string>
+    <string name="compressor_info_band_ranges">频段范围</string>
+    <string name="compressor_info_curves">每组不同的曲线</string>
+    <string name="compressor_info_character">处理特性</string>
+
+    <!-- Limiter -->
+    <string name="limiter_title">限制器</string>
+    <string name="limiter_simple_info_title">简易限制器</string>
+    <string name="limiter_simple_info_desc">关于限制器简单模式</string>
+    <string name="intensity">强度</string>
+    <string name="reset_intensity_desc">重置强度</string>
+    <string name="overwrite_complex_limiter_switch_msg">您已在复杂模式下编辑参数。在简单模式下，它们将被强度公式计算的值替换。</string>
+    <string name="overwrite_complex_compressor_switch_msg">部分频段已在复杂模式下编辑。在简单模式下，它们的值将被强度公式计算的值替换。</string>
+    <string name="limiter_info_intro" formatted="false">强度滑块用一个控件调整整个限制器。\n0% — 柔和、几乎透明的保护。\n100% — 激进的砖墙限制。</string>
+    <string name="limiter_info_values">按强度划分的值</string>
+
+    <!-- Preset -->
+    <string name="imported_preset">导入的预设</string>
+    <string name="auto_switch">自动切换</string>
+    <string name="manual_mode">手动</string>
+    <string name="auto_switch_subtitle">按设备和应用切换配置文件</string>
+    <string name="manual_mode_subtitle">手动选择配置文件</string>
+    <string name="auto_switch_info_desc">关于自动切换</string>
+    <string name="preset_modified">预设“%1$s”已修改</string>
+    <string name="choose_profile">选择配置文件：</string>
+    <string name="devices_count">设备：%1$d</string>
+    <string name="apps_count">应用：%1$d</string>
+    <string name="sources_count">音源：%1$d</string>
+    <string name="auto_switch_paused_draft">自动切换已暂停，直到保存或重置</string>
+    <string name="draft_pending_msg">预设“%1$s”有未保存的更改。请保存或重置后继续。</string>
+    <string name="rename_preset_desc">重命名预设</string>
+    <string name="delete_preset_desc">删除预设</string>
+    <string name="output_devices">输出设备</string>
+    <string name="select_output_devices_desc">选择输出设备</string>
+    <string name="apps">应用</string>
+    <string name="select_apps_desc">选择应用</string>
+    <string name="output_devices_binding">输出设备绑定</string>
+    <string name="auto_switch_info_title">自动切换</string>
+    <string name="auto_switch_info_text">自动切换会为当前设备和活动应用选择配置文件。\n\n优先级：\n1. 同时绑定此设备和此应用的配置文件。\n2. 仅绑定此设备（无应用）的配置文件。\n3. 无匹配时使用默认配置文件。\n\n在每个配置文件的“设备”和“应用”中设置绑定。\n手动模式下配置文件不会自动切换。</string>
+    <string name="unsaved_changes">未保存的更改</string>
+    <string name="export_unsaved_msg">配置文件有未保存的更改。导出什么？</string>
+    <string name="draft">草稿</string>
+    <string name="saved">已保存</string>
+    <string name="preset_name_taken">预设名称已被占用</string>
+    <string name="preset_name_taken_msg">已存在同名预设。请输入其他名称：</string>
+    <string name="name_rules_hint">不允许：%1$s 以及末尾的点</string>
+    <string name="name_taken_error">名称已被占用</string>
+    <string name="preset_name_invalid">无效的预设名称</string>
+    <string name="preset_name_invalid_msg">文件中的预设名称包含不允许的字符。已建议修正后的名称：</string>
+    <string name="import_action">导入</string>
+    <string name="conflict_global_session_title">全局会话已占用</string>
+    <string name="conflict_global_session_msg">设备“%1$s”已在预设“%2$s”中分配为全局（无应用绑定）。\n\n无法将一个设备的全局会话绑定到两个不同的预设。</string>
+    <string name="conflict_cannot_global_title">无法设为全局</string>
+    <string name="conflict_cannot_global_msg">设备“%1$s”已在预设“%2$s”中与所选应用一起使用。\n\n此配置文件无法作为该设备的全局（无应用）配置。请为当前配置文件指定至少一个未使用的应用。</string>
+    <string name="conflict_global_exists_title">已存在全局预设</string>
+    <string name="conflict_global_exists_msg">设备“%1$s”已在预设“%2$s”中绑定为全局（无应用）。\n\n请先在该预设中指定应用，或重新分配设备。</string>
+    <string name="conflict_pair_title">绑定冲突</string>
+    <string name="conflict_pair_msg">此设备的“%1$s”绑定已存在于预设“%2$s”中。是否移动设置？</string>
+    <string name="apps_binding">应用绑定</string>
+    <string name="no_media_apps">未找到媒体应用</string>
+    <string name="sound_sources">音源</string>
+    <string name="select_sound_sources_desc">选择音源</string>
+    <string name="sound_sources_binding">音源绑定</string>
+    <string name="no_sound_sources">未找到音源</string>
+    <string name="new_profile">新建配置文件</string>
+    <string name="preset_name_label">预设名称</string>
+    <string name="rename_profile">重命名配置文件</string>
+    <string name="new_name">新名称</string>
+    <string name="delete_profile">删除配置文件</string>
+    <string name="delete_profile_msg">确定要删除预设“%1$s”吗？</string>
+
+    <!-- FX -->
+    <string name="fx_title">FX</string>
+    <string name="fx_info_desc">关于 FX</string>
+    <string name="fx_info_text">「空间」— 两个滑块：
+• 「宽度」— 系统虚拟器（立体声扩展；并非所有设备都有）。0% 为关闭。
+• 「高音」— 在均衡器中提升高频段：1 kHz 最高 +3 dB，2–4 kHz 最高 +5 dB，8–16 kHz 最高 +8 dB。
+
+「小音量补偿」— 两个滑块：
+• 「强度」— 按 ISO 226:2003 等响曲线进行补偿的比例：小音量时，按听觉相对 1 kHz 损失的程度提升低音和高音。100% 即完整的曲线差，最高 +12 dB。
+• 「阈值」— 从该音量档位起不再补偿。车内实际声压未知，因此根据音量档位估算电平（阈值处按 80 phon 计）。</string>
+    <string name="loudness_title">小音量补偿</string>
+    <string name="loudness_strength">强度</string>
+    <string name="loudness_threshold">阈值</string>
+    <string name="loudness_status_volume">音量 %1$d/%2$d · 阈值 %3$d</string>
+    <string name="loudness_status_gains">低音 %1$+.1f dB · 高音 %2$+.1f dB · 余量 %3$.1f dB</string>
+    <string name="loudness_status_unknown">等待系统音量…</string>
+    <string name="spatial3d_title">空间</string>
+    <string name="spatial_width">宽度</string>
+    <string name="spatial_width_status_unknown">宽度：尚未检测（请播放音乐）</string>
+    <string name="spatial_width_status_works">宽度：正常工作</string>
+    <string name="spatial_width_status_blocked">宽度：此设备上被系统阻止</string>
+    <string name="spatial_air">高音</string>
+
+    <!-- Autostart -->
+    <string name="autostart_title">自启动</string>
+    <string name="autostart_message">为了在重启后自动运行 equX 并应用您的音效配置，请在系统设置中允许此应用自启动。</string>
+    <string name="autostart_open_settings">打开设置</string>
+    <string name="later">稍后</string>
+
+    <!-- Notification access -->
+    <string name="notification_access_title">通知访问权限</string>
+    <string name="notification_access_message">为了可靠识别第三方播放器（如 KMPlayer、Yandex Music）并自动切换配置文件，equX 需要访问通知的权限。</string>
+    <string name="notification_access_grant">允许</string>
+
+    <!-- Default preset -->
+    <string name="default_preset_name">默认</string>
+
+    <!-- Info dialogs -->
+    <string name="compressor_info_character_text">• 低频 — 慢速启动 → 保留低音的冲击力。\n• 中频 — 均衡控制。\n• 高频 — 快速启动 → 捕捉齿音和刺耳感。</string>
+    <string name="limiter_info_extra_text">• Out Gain — 限制器后的整体音量（Simple 和 Complex 模式下均有效）。\n• 仅当信号超过阈值时压缩才会触发。</string>
+    <!-- Devices -->
+    <string name="device_bluetooth">蓝牙设备</string>
+    <string name="device_aux">AUX / 有线耳机</string>
+    <string name="device_usb_dac">USB DAC / 声卡</string>
+    <string name="device_usb_dac_short">USB DAC</string>
+
+    <!-- Player fallback -->
+
+    <!-- Notification -->
+    <string name="notification_channel_name">equX 后台音效</string>
+    <string name="notification_channel_description">让均衡器在车内持续运行</string>
+    <string name="notification_title">equX 正在后台运行</string>
+
+    <!-- Quick Settings tile -->
+    <string name="tile_on">equX: 开</string>
+    <string name="tile_off">equX: 关</string>
+
+    <!-- File manager -->
+    <string name="file_manager_import_title">导入预设</string>
+    <string name="file_manager_export_title">导出预设</string>
+    <string name="file_sort_by">排序</string>
+    <string name="file_sort_name_asc">名称 ↑</string>
+    <string name="file_sort_name_desc">名称 ↓</string>
+    <string name="file_sort_modified_asc">修改日期 ↑</string>
+    <string name="file_sort_modified_desc">修改日期 ↓</string>
+    <string name="file_manager_up">向上</string>
+    <string name="file_manager_empty">文件夹为空</string>
+    <string name="file_manager_filename">文件名</string>
+    <string name="file_manager_filename_hint">preset.json</string>
+    <string name="file_manager_overwrite_title">文件已存在</string>
+    <string name="file_manager_overwrite_message">替换 %1$s？</string>
+    <string name="import_error_title">导入失败</string>
+    <string name="import_error_message">此文件不是有效的 equX 预设。</string>
+    <string name="export_error_title">导出失败</string>
+    <string name="export_error_message">无法保存“%1$s”。请检查文件夹访问权限和可用空间，或选择其他文件夹。</string>
+
+    <!-- Отчёт об ошибке / логи и скрытое меню отладки -->
+    <string name="debug_title">调试</string>
+    <string name="debug_force_car">强制启用车载模式</string>
+    <string name="diagnostics_title">错误报告</string>
+    <string name="diagnostics_save_download">保存到 Download</string>
+    <string name="diagnostics_share">分享</string>
+    <string name="diagnostics_saved">报告已保存到 Download</string>
+    <string name="diagnostics_failed">无法创建报告</string>
+    <string name="settings_report">错误报告</string>
+    <string name="diagnostics_note">应用日志始终记录（最多 6 MB，保留 7 天）。导出后会被清空。</string>
+    <string name="settings_report_subtitle">导出应用日志</string>
+</resources>

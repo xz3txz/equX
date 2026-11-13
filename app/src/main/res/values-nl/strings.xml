@@ -1,0 +1,274 @@
+<resources>
+    <string name="app_name">equX</string>
+
+    <string name="settings_title">Instellingen</string>
+    <string name="settings_theme">Thema</string>
+    <string name="settings_theme_subtitle">Licht, donker of systeem</string>
+    <string name="settings_color">Themakleur</string>
+    <string name="settings_color_subtitle">Themakleur van de app</string>
+    <string name="settings_language">Taal</string>
+    <string name="settings_language_subtitle">Interfacetaal</string>
+    <string name="settings_scale">Schaal</string>
+    <string name="settings_scale_subtitle">Grootte van de app-interface</string>
+    <string name="scale_dialog_title">Schaal</string>
+    <string name="scale_value_label">Schaal: %1$.0f%%</string>
+    <string name="scale_auto">Auto</string>
+    <string name="settings_transition">Vloeiende presetovergang</string>
+    <string name="settings_transition_subtitle">Overgang tussen presets</string>
+    <string name="transition_dialog_title">Vloeiende presetovergang</string>
+    <string name="transition_enable">Vloeiende overgang inschakelen</string>
+    <string name="transition_duration_label">Duur: %1$.1f s</string>
+    <string name="gala_min_speed">Minimumsnelheid</string>
+    <string name="gala_max_speed">Maximumsnelheid</string>
+    <string name="gala_max_boost">Max. boost</string>
+    <string name="gala_boost_value">%1$d stappen</string>
+    <string name="gala_speed_value">%1$d km/u</string>
+    <string name="car_title">Snelheidsinstellingen</string>
+    <string name="car_speed">Snelheid</string>
+    <string name="car_volume">Volume</string>
+    <string name="car_eq">Equalizer</string>
+    <string name="car_volume_method">Volumemethode</string>
+    <string name="car_volume_method_2">Android API</string>
+    <string name="car_volume_method_3">Android Car API</string>
+    <string name="car_volume_method_auto">Auto</string>
+    <string name="car_speed_source">Snelheidsbron</string>
+    <string name="car_speed_source_ecarx">Geely OneOS (ECARX)</string>
+    <string name="car_speed_source_vhal">Android Automotive (VHAL)</string>
+    <string name="car_speed_source_gps">GPS</string>
+    <string name="car_speed_source_max">max %1$d km/u</string>
+    <string name="car_gps_background_title">Locatietoegang op de achtergrond</string>
+    <string name="car_gps_background_message">Kies op het volgende scherm „Altijd toestaan” zodat GPS-snelheid ook na autostart werkt (zonder de app te openen).</string>
+    <string name="car_hu_speed_volume_title">Ingebouwde snelheidsafhankelijke volume staat aan</string>
+    <string name="car_hu_speed_volume_message">De ingebouwde snelheidsafhankelijke volumeregeling van de auto staat aan. Samen met GALA stijgt het volume dubbel. Schakel deze bij voorkeur uit in de geluidsinstellingen van de auto.</string>
+    <string name="car_real_speed_unknown">—</string>
+    <string name="car_speed_stats">Snelheidsstatistieken</string>
+    <string name="car_speed_stats_value">Huidig: %1$d  Max: %2$d</string>
+    <string name="car_mock_speed">Snelheidssimulatie</string>
+    <string name="car_mock_speed_value">%1$d km/u</string>
+    <string name="car_gain_value">%1$+.1f dB</string>
+    <string name="car_info_desc">Hulp bij auto-audio</string>
+    <string name="car_info_title">Snelheidsinstellingen</string>
+    <string name="car_info_intro">Snelheidscompensatie houdt geluid hoorbaar bij weggeluid. Het bestaat uit twee onafhankelijke delen: volume en equalizer.</string>
+    <string name="car_info_volume_title">Volume (GALA)</string>
+    <string name="car_info_volume_text">Verhoogt het totale volume naarmate de snelheid toeneemt van Min tot Max snelheid, tot Max Boost. Bij al hoge systeemvolume wordt de boost automatisch begrensd om vervorming te voorkomen.</string>
+    <string name="car_info_eq_title">Snelheidsequalizer</string>
+    <string name="car_info_eq_text">Voor elke ingeschakelde frequentie loopt de versterking geleidelijk op van 0 dB bij Min snelheid tot de ingestelde waarde bij Max snelheid. 0 dB betekent „geen extra wijziging bovenop de preset“; de waarde wordt opgeteld bij de eigen EQ van de preset. Bijvoorbeeld +3 dB op een basband telt 3 dB op bij die band, maar alleen bij hogere snelheid.</string>
+    <string name="settings_content_desc">Instellingen</string>
+
+    <string name="done">Klaar</string>
+    <string name="back">Terug</string>
+    <string name="toggle_collapse">Configureren ▼</string>
+    <string name="toggle_expand">Inklappen ▲</string>
+
+    <string name="theme_title">Thema</string>
+    <string name="theme_night">Donker</string>
+    <string name="theme_day">Licht</string>
+    <string name="theme_auto">Systeem</string>
+
+    <string name="language_title">Taal</string>
+
+    <string name="color_title">Themakleur</string>
+    <string name="color_description">Kies de themakleur van de app.</string>
+
+    <string name="device">Audioapparaat</string>
+    <string name="built_in_speaker">Ingebouwde luidspreker</string>
+
+    <string name="accent_blue">Blauw</string>
+    <string name="accent_pink">Roze</string>
+    <string name="accent_orange">Oranje</string>
+    <string name="accent_emerald">Smaragd</string>
+    <string name="accent_violet">Violet</string>
+    <string name="accent_teal">Turquoise</string>
+    <!-- Common (additional) -->
+    <string name="enabled">Ingeschakeld</string>
+    <string name="disabled">Uitgeschakeld</string>
+    <string name="save">Opslaan</string>
+    <string name="cancel">Annuleren</string>
+    <string name="got_it">Begrepen</string>
+    <string name="reset">Herstellen</string>
+    <string name="create">Maken</string>
+    <string name="export">Exporteren</string>
+    <string name="import_text">Importeren</string>
+    <string name="delete">Verwijderen</string>
+    <string name="ok">OK</string>
+    <string name="reassign">Opnieuw toewijzen</string>
+    <string name="parameter">Parameter</string>
+    <string name="reset_desc">Herstel naar presetwaarde</string>
+    <string name="overwrite">Overschrijven</string>
+    <string name="overwrite_complex_title">Complex overschrijven?</string>
+    <string name="warning">Waarschuwing</string>
+
+    <!-- Equalizer -->
+    <string name="equalizer_title">Equalizer</string>
+    <string name="eq_band_reset_desc">Herstel band naar presetwaarde</string>
+    <string name="eq_frequency_dialog_title">Frequentie van band #%1$d</string>
+    <string name="eq_frequency_dialog_hint">Voer een waarde in (bijv. 16k of 16000):</string>
+    <string name="eq_frequency_dialog_range">Toegestaan: van %1$s tot %2$s</string>
+    <string name="eq_gain_dialog_title">Versterking van band #%1$d</string>
+    <string name="eq_gain_dialog_hint">Voer een waarde in:</string>
+    <string name="eq_gain_dialog_range">Bereik: van -12,0 tot +12,0</string>
+
+    <!-- Compressor -->
+    <string name="compressor_title">Compressor</string>
+    <string name="compressor_simple_info_title">Eenvoudige compressor</string>
+    <string name="compressor_simple_info_desc">Over Simple-modus van compressor</string>
+    <string name="overwrite_complex_band_msg">Je hebt deze band in Complex-modus bewerkt. Het wijzigen van de intensiteit overschrijft de Complex-waarden.</string>
+    <string name="compressor_info_intro">Banden zijn gegroepeerd op frequentiebereik en worden anders verwerkt.</string>
+    <string name="compressor_info_band_ranges">Bandbereiken</string>
+    <string name="compressor_info_curves">Verschillende curves per groep</string>
+    <string name="compressor_info_character">Verwerkingskarakter</string>
+
+    <!-- Limiter -->
+    <string name="limiter_title">Limiter</string>
+    <string name="limiter_simple_info_title">Eenvoudige limiter</string>
+    <string name="limiter_simple_info_desc">Over Simple-modus van limiter</string>
+    <string name="intensity">Intensiteit</string>
+    <string name="reset_intensity_desc">Intensiteit herstellen</string>
+    <string name="overwrite_complex_limiter_switch_msg">Je hebt parameters in Complex-modus bewerkt. In Simple worden ze vervangen door waarden uit de intensiteitsformule.</string>
+    <string name="overwrite_complex_compressor_switch_msg">Sommige banden zijn in Complex-modus bewerkt. In Simple worden hun waarden vervangen door waarden uit de intensiteitsformule.</string>
+    <string name="limiter_info_intro" formatted="false">De schuif Intensiteit regelt de hele limiter met één bediening.\n0% — zachte, bijna transparante bescherming.\n100% — agressieve brickwall-limiter.</string>
+    <string name="limiter_info_values">Waarden per intensiteit</string>
+
+    <!-- Preset -->
+    <string name="imported_preset">Geïmporteerde preset</string>
+    <string name="auto_switch">Automatisch schakelen</string>
+    <string name="manual_mode">Handmatig</string>
+    <string name="auto_switch_subtitle">Profiel wisselen op basis van apparaten en apps</string>
+    <string name="manual_mode_subtitle">Handmatige profielselectie</string>
+    <string name="auto_switch_info_desc">Over automatisch schakelen</string>
+    <string name="preset_modified">Preset \"%1$s\" gewijzigd</string>
+    <string name="choose_profile">Kies een profiel:</string>
+    <string name="devices_count">Apparaten: %1$d</string>
+    <string name="apps_count">Apps: %1$d</string>
+    <string name="sources_count">Bronnen: %1$d</string>
+    <string name="auto_switch_paused_draft">Automatisch wisselen gepauzeerd tot u opslaat of terugzet</string>
+    <string name="draft_pending_msg">Preset \"%1$s\" heeft niet-opgeslagen wijzigingen. Sla ze op of zet ze terug om door te gaan.</string>
+    <string name="rename_preset_desc">Preset hernoemen</string>
+    <string name="delete_preset_desc">Preset verwijderen</string>
+    <string name="output_devices">Uitvoerapparaten</string>
+    <string name="select_output_devices_desc">Uitvoerapparaten kiezen</string>
+    <string name="apps">Apps</string>
+    <string name="select_apps_desc">Apps kiezen</string>
+    <string name="output_devices_binding">Koppeling uitvoerapparaten</string>
+    <string name="auto_switch_info_title">Automatisch schakelen</string>
+    <string name="auto_switch_info_text">Auto switch kiest het profiel voor het huidige apparaat en de actieve app.\n\nPrioriteit:\n1. Een profiel dat aan zowel dit apparaat als deze app is gekoppeld.\n2. Een profiel dat alleen aan dit apparaat is gekoppeld (zonder apps).\n3. Het standaardprofiel als niets overeenkomt.\n\nKoppelingen stel je per profiel in onder Apparaten en Apps.\nIn de handmatige modus wisselt het profiel nooit automatisch.</string>
+    <string name="unsaved_changes">Niet-opgeslagen wijzigingen</string>
+    <string name="export_unsaved_msg">Het profiel heeft niet-opgeslagen wijzigingen. Wat exporteren?</string>
+    <string name="draft">Concept</string>
+    <string name="saved">Opgeslagen</string>
+    <string name="preset_name_taken">Presetnaam in gebruik</string>
+    <string name="preset_name_taken_msg">Er bestaat al een preset met deze naam. Voer een andere naam in:</string>
+    <string name="name_rules_hint">Niet toegestaan: %1$s en een punt aan het eind</string>
+    <string name="name_taken_error">Naam is al in gebruik</string>
+    <string name="preset_name_invalid">Ongeldige presetnaam</string>
+    <string name="preset_name_invalid_msg">De presetnaam in het bestand bevat niet-toegestane tekens. Er wordt een gecorrigeerde naam voorgesteld:</string>
+    <string name="import_action">Importeren</string>
+    <string name="conflict_global_session_title">Globale sessie bezet</string>
+    <string name="conflict_global_session_msg">Apparaat \"%1$s\" is al als globaal toegewezen (zonder app-koppeling) in preset \"%2$s\".\n\nDe globale sessie van één apparaat kan niet aan twee verschillende presets worden gekoppeld.</string>
+    <string name="conflict_cannot_global_title">Kan niet globaal maken</string>
+    <string name="conflict_cannot_global_msg">Apparaat \"%1$s\" wordt al gebruikt in preset \"%2$s\" met geselecteerde apps.\n\nDeze preset kan niet globaal (zonder apps) zijn voor dit apparaat. Geef ten minste één ongebruikte app op voor de huidige preset.</string>
+    <string name="conflict_global_exists_title">Globale preset bestaat</string>
+    <string name="conflict_global_exists_msg">Apparaat \"%1$s\" is al als globaal gebonden (zonder apps) in preset \"%2$s\".\n\nGeef eerst apps op in die preset of wijs het apparaat opnieuw toe.</string>
+    <string name="conflict_pair_title">Koppelingsconflict</string>
+    <string name="conflict_pair_msg">De koppeling \"%1$s\" voor dit apparaat bestaat al in preset \"%2$s\". Instellingen verplaatsen?</string>
+    <string name="apps_binding">App-koppeling</string>
+    <string name="no_media_apps">Geen media-apps gevonden</string>
+    <string name="sound_sources">Geluidsbronnen</string>
+    <string name="select_sound_sources_desc">Geluidsbronnen kiezen</string>
+    <string name="sound_sources_binding">Geluidsbronbinding</string>
+    <string name="no_sound_sources">Geen geluidsbronnen gevonden</string>
+    <string name="new_profile">Nieuw profiel</string>
+    <string name="preset_name_label">Presetnaam</string>
+    <string name="rename_profile">Profiel hernoemen</string>
+    <string name="new_name">Nieuwe naam</string>
+    <string name="delete_profile">Profiel verwijderen</string>
+    <string name="delete_profile_msg">Weet je zeker dat je de preset \"%1$s\" wilt verwijderen?</string>
+
+    <!-- FX -->
+    <string name="fx_title">FX</string>
+    <string name="fx_info_desc">Over FX</string>
+    <string name="fx_info_text">„Ruimte” — twee schuiven:
+• „Breedte” — de systeem-Virtualizer (stereoverbreding; niet op elk apparaat aanwezig). 0% zet hem uit.
+• „Hoog” — versterkt het hoge bereik in de EQ: 1 kHz tot +3 dB, 2–4 kHz tot +5 dB, 8–16 kHz tot +8 dB.
+
+„Zachtvolume-compensatie” — twee schuiven:
+• „Sterkte” — hoeveel van de correctie volgens de gelijke-luidheidscurven (ISO 226:2003) wordt toegepast: bij laag volume worden bas en hoog zoveel versterkt als het gehoor ten opzichte van 1 kHz verliest. 100% is het volledige curveverschil, maximaal +12 dB.
+• „Drempel” — de volumestap vanaf waar er geen versterking meer is. De werkelijke geluidsdruk in de auto is onbekend, dus het niveau wordt geschat uit de volumestap (bij de drempel 80 phon).</string>
+    <string name="loudness_title">Zachtvolume-compensatie</string>
+    <string name="loudness_strength">Sterkte</string>
+    <string name="loudness_threshold">Drempel</string>
+    <string name="loudness_status_volume">Volume %1$d/%2$d · drempel %3$d</string>
+    <string name="loudness_status_gains">Bas %1$+.1f dB · hoog %2$+.1f dB · reserve %3$.1f dB</string>
+    <string name="loudness_status_unknown">Wachten op systeemvolume…</string>
+    <string name="spatial3d_title">Ruimte</string>
+    <string name="spatial_width">Breedte</string>
+    <string name="spatial_width_status_unknown">Breedte: nog niet gecontroleerd (speel muziek af)</string>
+    <string name="spatial_width_status_works">Breedte: werkt</string>
+    <string name="spatial_width_status_blocked">Breedte: door het systeem op dit apparaat geblokkeerd</string>
+    <string name="spatial_air">Hoog</string>
+
+    <!-- Autostart -->
+    <string name="autostart_title">Automatisch starten</string>
+    <string name="autostart_message">Zodat equX na het opnieuw opstarten automatisch start en uw geluidsprofiel toepast, moet u automatisch starten voor deze app toestaan in de systeeminstellingen.</string>
+    <string name="autostart_open_settings">Instellingen openen</string>
+    <string name="later">Later</string>
+
+    <!-- Notification access -->
+    <string name="notification_access_title">Toegang tot meldingen</string>
+    <string name="notification_access_message">Om apps van derden (bijv. KMPlayer, Yandex Music) betrouwbaar te herkennen en profielen automatisch te wisselen, heeft equX toegang tot meldingen nodig.</string>
+    <string name="notification_access_grant">Toestaan</string>
+
+    <!-- Default preset -->
+    <string name="default_preset_name">Standaard</string>
+
+    <!-- Info dialogs -->
+    <string name="compressor_info_character_text">• Laag — langzame attack → behoudt de bas-punch.\n• Midden — gebalanceerde regeling.\n• Hoog — snelle attack → vangt sibilanten en hardheid.</string>
+    <string name="limiter_info_extra_text">• Out Gain — totale luidheid na de limiter (werkt in zowel Simple als Complex).\n• Compressie treedt alleen op wanneer het signaal de Threshold overschrijdt.</string>
+    <!-- Devices -->
+    <string name="device_bluetooth">Bluetooth-apparaat</string>
+    <string name="device_aux">AUX / Bedrade hoofdtelefoon</string>
+    <string name="device_usb_dac">USB-DAC / Geluidskaart</string>
+    <string name="device_usb_dac_short">USB-DAC</string>
+
+    <!-- Player fallback -->
+
+    <!-- Notification -->
+    <string name="notification_channel_name">equX Achtergrondgeluid</string>
+    <string name="notification_channel_description">Houdt de equalizer continu actief in de auto</string>
+    <string name="notification_title">equX draait op de achtergrond</string>
+
+    <!-- Quick Settings tile -->
+    <string name="tile_on">equX: AAN</string>
+    <string name="tile_off">equX: UIT</string>
+
+    <!-- File manager -->
+    <string name="file_manager_import_title">Preset importeren</string>
+    <string name="file_manager_export_title">Preset exporteren</string>
+    <string name="file_sort_by">Sorteren</string>
+    <string name="file_sort_name_asc">Naam ↑</string>
+    <string name="file_sort_name_desc">Naam ↓</string>
+    <string name="file_sort_modified_asc">Gewijzigd ↑</string>
+    <string name="file_sort_modified_desc">Gewijzigd ↓</string>
+    <string name="file_manager_up">Omhoog</string>
+    <string name="file_manager_empty">Map is leeg</string>
+    <string name="file_manager_filename">Bestandsnaam</string>
+    <string name="file_manager_filename_hint">preset.json</string>
+    <string name="file_manager_overwrite_title">Bestand bestaat al</string>
+    <string name="file_manager_overwrite_message">%1$s vervangen?</string>
+    <string name="import_error_title">Importeren mislukt</string>
+    <string name="import_error_message">Dit bestand is geen geldige equX-preset.</string>
+    <string name="export_error_title">Exporteren mislukt</string>
+    <string name="export_error_message">Kan \"%1$s\" niet opslaan. Controleer de toegang tot de map en de vrije ruimte, of kies een andere map.</string>
+
+    <!-- Отчёт об ошибке / логи и скрытое меню отладки -->
+    <string name="debug_title">Debug</string>
+    <string name="debug_force_car">Car-modus forceren</string>
+    <string name="diagnostics_title">Foutrapport</string>
+    <string name="diagnostics_save_download">Opslaan in Downloads</string>
+    <string name="diagnostics_share">Delen</string>
+    <string name="diagnostics_saved">Rapport opgeslagen in Downloads</string>
+    <string name="diagnostics_failed">Rapport maken mislukt</string>
+    <string name="settings_report">Foutrapport</string>
+    <string name="diagnostics_note">Het app-logboek wordt altijd bijgehouden (tot 6 MB, 7 dagen). Na het exporteren wordt het gewist.</string>
+    <string name="settings_report_subtitle">App-logboek exporteren</string>
+</resources>

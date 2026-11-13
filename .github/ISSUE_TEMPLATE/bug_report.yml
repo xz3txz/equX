@@ -1,0 +1,64 @@
+name: Bug report
+description: Something doesn't work as expected
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: equX version
+      description: Shown in Settings, or in the APK file name (equx_<version>-release.apk).
+      placeholder: 1.0.92
+    validations:
+      required: true
+  - type: dropdown
+    id: device-type
+    attributes:
+      label: Device type
+      options:
+        - Phone / tablet
+        - Car head unit
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device model
+      description: Phone model, or car make / model / year and head unit.
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android version
+      placeholder: "13"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      multiple: true
+      options:
+        - Equalizer
+        - Compressor
+        - Limiter
+        - FX (Space / Loudness)
+        - Presets / import / export
+        - Auto switch
+        - Car (GALA / Speed EQ / speed source)
+        - Visualizer
+        - UI / translation
+        - Other
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: "Optional. `adb logcat -d | grep -i equx` output, or the preset JSON if relevant."
+      render: text

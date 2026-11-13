@@ -1,0 +1,281 @@
+<resources>
+    <string name="app_name">equX</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_subtitle">Light, dark or follow system</string>
+    <string name="settings_color">Theme color</string>
+    <string name="settings_color_subtitle">App theme color</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_subtitle">Interface language</string>
+    <string name="settings_scale">Scale</string>
+    <string name="settings_scale_subtitle">App interface size</string>
+    <string name="scale_dialog_title">Scale</string>
+    <string name="scale_value_label">Scale: %1$.0f%%</string>
+    <string name="scale_auto">Auto</string>
+    <string name="settings_transition">Smooth preset transition</string>
+    <string name="settings_transition_subtitle">Fade between presets</string>
+    <string name="transition_dialog_title">Smooth preset transition</string>
+    <string name="transition_enable">Enable smooth transition</string>
+    <string name="transition_duration_label">Duration: %1$.1f s</string>
+    <string name="gala_min_speed">Min Speed</string>
+    <string name="gala_max_speed">Max Speed</string>
+    <string name="gala_max_boost">Max Boost</string>
+    <string name="gala_speed_value">%1$d km/h</string>
+    <string name="gala_boost_value">%1$d steps</string>
+    <string name="car_title">Car Speed Settings</string>
+    <string name="car_speed">Speed</string>
+    <string name="car_volume">Volume</string>
+    <string name="car_eq">Equalizer</string>
+    <string name="car_volume_method">Volume method</string>
+    <string name="car_volume_method_2">Android API</string>
+    <string name="car_volume_method_3">Android Car API</string>
+    <string name="car_volume_method_auto">Auto</string>
+    <string name="car_speed_source">Speed source</string>
+    <string name="car_speed_source_ecarx">Geely OneOS (ECARX)</string>
+    <string name="car_speed_source_vhal">Android Automotive (VHAL)</string>
+    <string name="car_speed_source_gps">GPS</string>
+    <string name="car_speed_source_max">max %1$d km/h</string>
+    <string name="car_gps_background_title">Background location access</string>
+    <string name="car_gps_background_message">For GPS speed to work after autostart (without opening the app), choose \"Allow all the time\" on the next screen.</string>
+    <string name="car_hu_speed_volume_title">Built-in speed volume is on</string>
+    <string name="car_hu_speed_volume_message">The car\'s own speed-dependent volume adjustment is enabled. Together with GALA the volume will rise twice as speed increases. It is better to turn it off in the car\'s sound settings.</string>
+    <string name="car_real_speed_unknown">—</string>
+    <string name="car_speed_stats">Speed statistics</string>
+    <string name="car_speed_stats_value">Current: %1$d  Max: %2$d</string>
+    <string name="car_mock_speed">Speed simulation</string>
+    <string name="car_mock_speed_value">%1$d km/h</string>
+    <string name="car_gain_value">%1$+.1f dB</string>
+    <string name="car_info_desc">Car audio help</string>
+    <string name="car_info_title">Car Speed Settings</string>
+    <string name="car_info_intro">Speed compensation helps keep sound audible over road noise. It has two independent parts: volume and equalizer.</string>
+    <string name="car_info_volume_title">Volume (GALA)</string>
+    <string name="car_info_volume_text">Raises overall loudness as speed grows from Min Speed to Max Speed, up to Max Boost. Boost is automatically limited if the system volume is already high, so it won\'t clip.</string>
+    <string name="car_info_eq_title">Speed Equalizer</string>
+    <string name="car_info_eq_text">For each enabled frequency, gain is applied gradually from 0 dB at Min Speed to the set value at Max Speed. 0 dB means "no extra change on top of the preset"; the value is added to the preset\'s own EQ. For example, +3 dB on a bass band adds 3 dB to that band only at higher speed.</string>
+    <string name="settings_content_desc">Settings</string>
+
+    <!-- Common -->
+    <string name="done">Done</string>
+    <string name="back">Back</string>
+    <string name="toggle_collapse">Configure ▼</string>
+    <string name="toggle_expand">Collapse ▲</string>
+
+    <!-- Theme dialog -->
+    <string name="theme_title">Theme</string>
+    <string name="theme_night">Dark</string>
+    <string name="theme_day">Light</string>
+    <string name="theme_auto">System</string>
+
+    <!-- Language dialog -->
+    <string name="language_title">Language</string>
+
+    <!-- Accent color dialog -->
+    <string name="color_title">Theme color</string>
+    <string name="color_description">Choose the app theme color.</string>
+
+    <!-- Device -->
+    <string name="device">Audio device</string>
+    <string name="built_in_speaker">Built-in speaker</string>
+
+    <!-- Accent colors -->
+    <string name="accent_blue">Blue</string>
+    <string name="accent_pink">Pink</string>
+    <string name="accent_orange">Orange</string>
+    <string name="accent_emerald">Emerald</string>
+    <string name="accent_violet">Violet</string>
+    <string name="accent_teal">Teal</string>
+    <!-- Common (additional) -->
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="got_it">Got it</string>
+    <string name="reset">Reset</string>
+    <string name="create">Create</string>
+    <string name="export">Export</string>
+    <string name="import_text">Import</string>
+    <string name="delete">Delete</string>
+    <string name="ok">OK</string>
+    <string name="reassign">Reassign</string>
+    <string name="parameter">Parameter</string>
+    <string name="reset_desc">Reset to preset value</string>
+    <string name="overwrite">Overwrite</string>
+    <string name="overwrite_complex_title">Overwrite Complex?</string>
+    <string name="warning">Warning</string>
+
+    <!-- Equalizer -->
+    <string name="equalizer_title">Equalizer</string>
+    <string name="eq_band_reset_desc">Reset band to preset value</string>
+    <string name="eq_frequency_dialog_title">Band #%1$d frequency</string>
+    <string name="eq_frequency_dialog_hint">Enter a value (e.g. 16k or 16000):</string>
+    <string name="eq_frequency_dialog_range">Allowed: from %1$s to %2$s</string>
+    <string name="eq_gain_dialog_title">Band #%1$d gain</string>
+    <string name="eq_gain_dialog_hint">Enter a value:</string>
+    <string name="eq_gain_dialog_range">Range: from -12.0 to +12.0</string>
+
+    <!-- Compressor -->
+    <string name="compressor_title">Compressor</string>
+    <string name="compressor_simple_info_title">Simple compressor</string>
+    <string name="compressor_simple_info_desc">About compressor Simple mode</string>
+    <string name="overwrite_complex_band_msg">You edited this band in Complex mode. Changing intensity will overwrite its Complex values.</string>
+    <string name="compressor_info_intro">Bands are grouped by frequency range and processed differently.</string>
+    <string name="compressor_info_band_ranges">Band ranges</string>
+    <string name="compressor_info_curves">Different curves for each group</string>
+    <string name="compressor_info_character">Processing character</string>
+
+    <!-- Limiter -->
+    <string name="limiter_title">Limiter</string>
+    <string name="limiter_simple_info_title">Simple limiter</string>
+    <string name="limiter_simple_info_desc">About limiter Simple mode</string>
+    <string name="intensity">Intensity</string>
+    <string name="reset_intensity_desc">Reset intensity</string>
+    <string name="overwrite_complex_limiter_switch_msg">You edited parameters in Complex mode. In Simple they will be replaced with values from the intensity formula.</string>
+    <string name="overwrite_complex_compressor_switch_msg">Some bands were edited in Complex mode. In Simple their values will be replaced with values from the intensity formula.</string>
+    <string name="limiter_info_intro" formatted="false">The Intensity slider tunes the whole limiter with one control.\n0% — soft, nearly transparent protection.\n100% — aggressive brickwall limiting.</string>
+    <string name="limiter_info_values">Values by intensity</string>
+
+    <!-- Preset -->
+    <string name="imported_preset">Imported preset</string>
+    <string name="auto_switch">Auto switch</string>
+    <string name="manual_mode">Manual</string>
+    <string name="auto_switch_subtitle">Switch profile by devices and apps</string>
+    <string name="manual_mode_subtitle">Manual profile selection</string>
+    <string name="auto_switch_info_desc">About auto switch</string>
+    <string name="preset_modified">Preset \"%1$s\" modified</string>
+    <string name="choose_profile">Choose a profile:</string>
+    <string name="devices_count">Devices: %1$d</string>
+    <string name="apps_count">Apps: %1$d</string>
+    <string name="sources_count">Sources: %1$d</string>
+    <string name="auto_switch_paused_draft">Auto-switching is paused until you save or reset</string>
+    <string name="draft_pending_msg">Preset \"%1$s\" has unsaved changes. Save or reset them to continue.</string>
+    <string name="rename_preset_desc">Rename preset</string>
+    <string name="delete_preset_desc">Delete preset</string>
+    <string name="output_devices">Output devices</string>
+    <string name="select_output_devices_desc">Choose output devices</string>
+    <string name="sound_sources">Sound sources</string>
+    <string name="select_sound_sources_desc">Choose sound sources</string>
+    <string name="sound_sources_binding">Sound source binding</string>
+    <string name="no_sound_sources">No sound sources found</string>
+    <string name="apps">Apps</string>
+    <string name="select_apps_desc">Choose apps</string>
+    <string name="output_devices_binding">Output device binding</string>
+    <string name="auto_switch_info_title">Auto switch</string>
+    <string name="auto_switch_info_text">Auto switch picks the profile for the current device and active app.\n\nPriority:\n1. A profile bound to both this device and this app.\n2. A profile bound only to this device (without apps).\n3. The Default profile if nothing matches.\n\nBindings are set per profile in Devices and Apps.\nIn manual mode the profile never changes automatically.</string>
+    <string name="unsaved_changes">Unsaved changes</string>
+    <string name="export_unsaved_msg">The profile has unsaved changes. What to export?</string>
+    <string name="draft">Draft</string>
+    <string name="saved">Saved</string>
+    <string name="preset_name_taken">Preset name taken</string>
+    <string name="preset_name_taken_msg">A preset with this name already exists. Enter another name:</string>
+    <string name="name_rules_hint">Not allowed: %1$s and a trailing dot</string>
+    <string name="name_taken_error">Name is already taken</string>
+    <string name="preset_name_invalid">Invalid preset name</string>
+    <string name="preset_name_invalid_msg">The preset name in the file contains characters that are not allowed. A corrected name is suggested:</string>
+    <string name="import_action">Import</string>
+    <string name="conflict_global_session_title">Global session is taken</string>
+    <string name="conflict_global_session_msg">Device \"%1$s\" is already assigned as global (without app binding) in preset \"%2$s\".\n\nCannot bind the global session of one device to two different presets.</string>
+    <string name="conflict_cannot_global_title">Cannot make global</string>
+    <string name="conflict_cannot_global_msg">Device \"%1$s\" is already used in preset \"%2$s\" with selected apps.\n\nThis preset cannot be global (without apps) for this device. Please specify at least one unused app for the current preset.</string>
+    <string name="conflict_global_exists_title">Global preset exists</string>
+    <string name="conflict_global_exists_msg">Device \"%1$s\" is already bound as global (without apps) in preset \"%2$s\".\n\nFirst specify apps in that preset or reassign the device.</string>
+    <string name="conflict_pair_title">Binding conflict</string>
+    <string name="conflict_pair_msg">The \"%1$s\" binding for this device already exists in preset \"%2$s\". Move settings?</string>
+    <string name="apps_binding">App binding</string>
+    <string name="no_media_apps">No media apps found</string>
+    <string name="new_profile">New profile</string>
+    <string name="preset_name_label">Preset name</string>
+    <string name="rename_profile">Rename profile</string>
+    <string name="new_name">New name</string>
+    <string name="delete_profile">Delete profile</string>
+    <string name="delete_profile_msg">Are you sure you want to delete the preset \"%1$s\"?</string>
+
+    <!-- FX -->
+    <string name="fx_title">FX</string>
+    <string name="fx_info_desc">About FX</string>
+    <string name="fx_info_text">\"Space\" — two controls:
+• \"Width\" — the system Virtualizer (stereo widening; not every device has it). 0% turns it off.
+• \"Treble\" — lifts the upper range in the EQ: 1 kHz up to +3 dB, 2–4 kHz up to +5 dB, 8–16 kHz up to +8 dB.
+
+\"Low-Volume Boost\" — two controls:
+• \"Strength\" — how much of the ISO 226:2003 equal-loudness correction to apply: at low volume, bass and treble are raised by as much as hearing loses relative to 1 kHz. 100% is the full curve difference, capped at +12 dB.
+• \"Threshold\" — the volume step from which there is no boost. The real sound pressure in the cabin is unknown, so the level is estimated from the volume step (the threshold counts as 80 phon).</string>
+    <string name="loudness_title">Low-Volume Boost</string>
+    <string name="loudness_strength">Strength</string>
+    <string name="loudness_threshold">Threshold</string>
+    <string name="loudness_status_volume">Volume %1$d/%2$d · threshold %3$d</string>
+    <string name="loudness_status_gains">Bass %1$+.1f dB · treble %2$+.1f dB · headroom %3$.1f dB</string>
+    <string name="loudness_status_unknown">Waiting for system volume…</string>
+    <string name="spatial3d_title">Space</string>
+    <string name="spatial_width">Width</string>
+    <string name="spatial_width_status_unknown">Width: not checked yet (play music)</string>
+    <string name="spatial_width_status_works">Width: working</string>
+    <string name="spatial_width_status_blocked">Width: blocked by the system on this device</string>
+    <string name="spatial_air">Treble</string>
+
+    <!-- Autostart -->
+    <string name="autostart_title">Autostart</string>
+    <string name="autostart_message">To keep equX running and apply your sound profile automatically after reboot, allow autostart for this app in the system settings.</string>
+    <string name="autostart_open_settings">Open settings</string>
+    <string name="later">Later</string>
+
+    <!-- Notification access -->
+    <string name="notification_access_title">Notification access</string>
+    <string name="notification_access_message">To reliably detect third-party players (e.g. KMPlayer, Yandex Music) and switch profiles automatically, equX needs access to notifications.</string>
+    <string name="notification_access_grant">Grant</string>
+
+    <!-- Default preset -->
+    <string name="default_preset_name">Default</string>
+
+    <!-- Info dialogs -->
+    <string name="compressor_info_character_text">• Low — slow attack → keeps the bass punch.\n• Mid — balanced control.\n• High — fast attack → catches sibilance and harshness.</string>
+    <string name="limiter_info_extra_text">• Out Gain — overall volume after the limiter (works in both Simple and Complex).\n• Compression only triggers when the signal exceeds the Threshold.</string>
+    <!-- Devices -->
+    <string name="device_bluetooth">Bluetooth device</string>
+    <string name="device_aux">AUX / Wired headphones</string>
+    <string name="device_usb_dac">USB DAC / Audio card</string>
+    <string name="device_usb_dac_short">USB DAC</string>
+
+    <!-- Player fallback -->
+
+    <!-- Notification -->
+    <string name="notification_channel_name">equX Background Sound</string>
+    <string name="notification_channel_description">Keeps the equalizer running continuously in the car</string>
+    <string name="notification_title">equX running in background</string>
+
+    <!-- Quick Settings tile -->
+    <string name="tile_on">equX: ON</string>
+    <string name="tile_off">equX: OFF</string>
+
+    <!-- File manager -->
+    <string name="file_manager_import_title">Import preset</string>
+    <string name="file_manager_export_title">Export preset</string>
+    <string name="file_sort_by">Sort</string>
+    <string name="file_sort_name_asc">Name ↑</string>
+    <string name="file_sort_name_desc">Name ↓</string>
+    <string name="file_sort_modified_asc">Date modified ↑</string>
+    <string name="file_sort_modified_desc">Date modified ↓</string>
+    <string name="file_manager_up">Up</string>
+    <string name="file_manager_empty">Folder is empty</string>
+    <string name="file_manager_filename">File name</string>
+    <string name="file_manager_filename_hint">preset.json</string>
+    <string name="file_manager_overwrite_title">File already exists</string>
+    <string name="file_manager_overwrite_message">Replace %1$s?</string>
+    <string name="import_error_title">Import failed</string>
+    <string name="import_error_message">This file is not a valid equX preset.</string>
+    <string name="export_error_title">Export failed</string>
+    <string name="export_error_message">Could not save \"%1$s\". Check access to the folder and free space, or choose another folder.</string>
+
+    <!-- Отчёт об ошибке / логи и скрытое меню отладки -->
+    <string name="debug_title">Debug</string>
+    <string name="debug_force_car">Force Car mode</string>
+    <string name="diagnostics_title">Error report</string>
+    <string name="diagnostics_save_download">Save to Download</string>
+    <string name="diagnostics_share">Share</string>
+    <string name="diagnostics_saved">Report saved to Download</string>
+    <string name="diagnostics_failed">Could not create report</string>
+    <string name="settings_report">Error report</string>
+    <string name="diagnostics_note">The app log is always recorded (up to 6 MB, 7 days). After export it is cleared.</string>
+    <string name="settings_report_subtitle">Export app logs</string>
+</resources>
